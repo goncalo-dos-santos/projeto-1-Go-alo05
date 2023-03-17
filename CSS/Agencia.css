@@ -1,0 +1,203 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	
+	
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap ;
+	height: 100px;
+	background: #ffffff;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	
+	
+}
+
+.logo{
+	flex: 20%;
+	margin-left: 10%;
+	/*border: 1px solid red;*/
+	text-align: left;
+}
+.logo h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: oblique;
+	font-size: 30px;
+	font-weight: bold;
+	color: #180F4A;
+}
+
+.menu{
+flex: 70%;
+/*border: 2px solid yellow;*/
+text-align: right;
+padding: 20px;
+	
+}
+
+.menu a{
+	color: #180F4A;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 20px 16px;
+}
+.menu a:hover{
+	color: #ff2978;
+	border-top: 4px solid #180F4A;
+	
+}
+
+#botao{
+	background: #180F4A;
+	padding: 10px 25px;
+	color: #ffffff;
+	border-radius: 5px;
+	margin-right: 10%;
+	margin-left: 5%;
+}
+#botao:hover{
+	border: none;
+	background: #ff2978;
+
+}
+
+.header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	padding: 100px;
+
+}
+
+.headline{
+	flex: 40%;
+	margin-left: 10%;
+	/*border: 1px solid black;*/
+}
+.headline h2{
+	font-weight: 900;
+	font-size: 20px;
+	color: #180F4A;
+	padding: 0;
+	margin: 0;
+}
+.headline p{
+	color: gray;
+	text-align: left;
+}
+.contact-btn{
+	display: inline-block;
+	background: #ff2978;
+	padding: 15px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.contact-btn:hover{
+	background: #180F4A;
+	
+}
+
+.img-headline{
+	margin-right: 10%;
+	flex: 40%;
+	/*border: 1px solid deeppink;*/
+	text-align: center;
+}
+
+section{
+	display: inline-block;
+	margin-top: 80px;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	
+	
+}
+section h2{
+	width: 100%;
+	font-size: 40px;
+	margin: 0;
+  font-family: serif;
+	font-style: oblique;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #180F4A;
+	text-align: center;
+	
+}
+
+.servico{
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.card{
+	display: inline-block;
+	width: 30%;
+	padding: 20px;
+	margin: 1%;
+	border: 1px solid #ff2978;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.texto-oculto{
+	display: none;
+}
+.card:hover{
+	background: #ff2978;
+	color: #ffffff;
+	padding: 40px;
+}
+.card:hover img{
+	display: none;
+}
+.card:hover .card-text{
+	display: none;
+}
+.card:hover .texto-oculto{
+	display: block;
+}
+footer{
+	margin-top: 100px;
+	height: 400px;
+	background-image: linear-gradient(180deg,#180F4A,#090422,black);
+	text-align: center;
+	border-top: 5px solid #ff2978;
+}
+.logo-rodape{
+	padding: 100px;
+}
+
+.agencia{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: oblique;
+	font-size: 34px;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+.whats{
+	/* classe da logo do whatsapp*/
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	left: 50px;
+	
+}
+
